@@ -1,0 +1,26 @@
+{
+    "form":"octaedro",
+    "maze":[
+        {"tipo":"room","num":1,"hijos":[
+        ]},
+        {"tipo":"treasury","num":2,"hijos":[
+        ]},
+        {"tipo":"room","num":3,"hijos":[
+        ]},
+        {"tipo":"treasury","num":4,"hijos":[
+        ]}
+    ],
+    "doors":[
+        [1,"South",2,"North"],[1,"Northeste",3,"Southoeste"],[1,"East",4,"West"]
+    ],
+    "beasts":[
+
+    ],
+    "bosses":[
+        {"posicion":2}
+    ],
+    "person":{
+        "name":"Pepe",
+        "type":"Archer"
+    }
+}
