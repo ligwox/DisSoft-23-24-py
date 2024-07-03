@@ -1,0 +1,15 @@
+{
+    "form":"hexagon",
+    "maze":[
+        {"tipo":"habitacion","num":1,"hijos":[
+            {"tipo":"bomba"}
+        ]},
+        {"tipo":"habitacion","num":2,"hijos":[
+            {"tipo":"bomba"}
+        ]}
+    ],
+    "puertas":[
+        [1,"South",2,"North"]
+    ]
+}
+
